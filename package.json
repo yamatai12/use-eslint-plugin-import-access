@@ -1,0 +1,25 @@
+{
+  "name": "use-eslint-plugin-import-access",
+  "version": "1.0.0",
+  "description": "use eslint-plugin-import-access",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ./*.ts"
+  },
+  "author": "yamatai12",
+  "license": "ISC",
+  "volta": {
+    "node": "20.11.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^8.57.0",
+    "@types/eslint__js": "^8.42.3",
+    "@typescript-eslint/parser": "^7.9.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-import-access": "^2.2.1",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.9.0"
+  }
+}
