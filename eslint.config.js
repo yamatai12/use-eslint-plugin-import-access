@@ -24,12 +24,7 @@ export default [
             "import-access/jsdoc": ["error",{
               // defaultImportabilityをpackageに設定
               defaultImportability: 'package',
-              // rules: [
-              //   // {
-              //   //   // ディレクトリ名と同じファイルからのインポートを許可
-              //   //   from: 'src/sub', // ここを実際のディレクトリパスにする
-              //   // }
-              // ]
+              filenameLoophole: true
             }],
        }
    }
