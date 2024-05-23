@@ -1,1 +1,3 @@
-const a = 1;
+import { called } from "sub/index"
+
+called
